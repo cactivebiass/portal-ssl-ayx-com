@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>资料索引 · 信息整理手记 | ayx</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #f8f6f0;
+      font-family: 'Georgia', 'Times New Roman', '宋体', serif;
+      color: #2c2b28;
+      line-height: 1.8;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      background: #fdfcfa;
+      padding: 3rem 2.5rem;
+      border-radius: 4px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    }
+
+    h1 {
+      font-weight: 400;
+      font-size: 1.9rem;
+      letter-spacing: 1px;
+      color: #3a3a35;
+      margin-bottom: 0.25rem;
+      border-left: 4px solid #c4b998;
+      padding-left: 1rem;
+    }
+
+    .subhead {
+      font-style: italic;
+      color: #7a7568;
+      font-size: 0.95rem;
+      margin: 0.5rem 0 2rem 1.2rem;
+      border-bottom: 1px dashed #dbd5c6;
+      padding-bottom: 0.75rem;
+    }
+
+    .hero-line {
+      background: #efebe2;
+      padding: 1.2rem 1.6rem;
+      margin: 1.8rem 0 2rem;
+      border-radius: 2px;
+      font-style: normal;
+      font-size: 1.1rem;
+      color: #3f3c33;
+      border-left: 6px solid #b3a78c;
+    }
+
+    .hero-line strong {
+      font-weight: 500;
+    }
+
+    p {
+      margin: 1.3rem 0;
+      text-indent: 2em;
+      font-size: 1rem;
+    }
+
+    p.no-indent {
+      text-indent: 0;
+    }
+
+    .blockquote-note {
+      background: #f4f0e8;
+      padding: 1.2rem 1.8rem;
+      margin: 1.8rem 0;
+      border-radius: 2px;
+      border-left: 6px solid #a09882;
+      font-size: 0.95rem;
+      color: #3f3a30;
+    }
+
+    .blockquote-note::before {
+      content: "📎 信息笔记 ";
+      font-weight: 500;
+      font-style: normal;
+      letter-spacing: 0.5px;
+      color: #5f5a4a;
+      display: block;
+      margin-bottom: 0.4rem;
+    }
+
+    ul.feature-list {
+      list-style: none;
+      margin: 1.8rem 0 1.2rem;
+    }
+
+    ul.feature-list li {
+      position: relative;
+      padding: 0.5rem 0 0.5rem 2.2rem;
+      font-size: 1rem;
+      border-bottom: 1px dotted #e2dbcf;
+    }
+
+    ul.feature-list li:last-child {
+      border-bottom: none;
+    }
+
+    ul.feature-list li::before {
+      content: "◦";
+      position: absolute;
+      left: 0.5rem;
+      color: #8d856d;
+      font-size: 1.4rem;
+      line-height: 1.3;
+    }
+
+    .faq-mini {
+      background: #faf8f3;
+      padding: 1.2rem 1.8rem;
+      margin: 2.2rem 0 1.5rem;
+      border: 1px solid #e0d9ca;
+    }
+
+    .faq-mini summary {
+      font-weight: 500;
+      cursor: pointer;
+      color: #4c473c;
+      font-size: 1.05rem;
+    }
+
+    .faq-mini p {
+      text-indent: 0;
+      margin: 0.8rem 0 0;
+      font-size: 0.95rem;
+    }
+
+    .closing {
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #ddd6c5;
+      font-size: 0.95rem;
+      color: #5c574b;
+      text-align: left;
+    }
+
+    .closing a {
+      color: #6f684b;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-thickness: 0.5px;
+      font-weight: 400;
+    }
+
+    .closing a:hover {
+      color: #3f3927;
+      text-decoration-color: #b3a78c;
+    }
+
+    .footnote-tag {
+      display: inline-block;
+      background: #e4ded2;
+      font-family: monospace;
+      font-size: 0.7rem;
+      padding: 0.05rem 0.5rem;
+      border-radius: 2px;
+      color: #5a5442;
+      letter-spacing: 0.5px;
+      margin-left: 0.3rem;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem 0.6rem;
+      }
+      .container {
+        padding: 1.8rem 1.2rem;
+      }
+      h1 {
+        font-size: 1.5rem;
+        padding-left: 0.8rem;
+      }
+      .hero-line {
+        padding: 1rem 1.2rem;
+        font-size: 1rem;
+      }
+      ul.feature-list li {
+        padding-left: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>资料整理·索引手记</h1>
+  <div class="subhead">—— 从信息碎片到可追溯的线索</div>
+
+  <div class="hero-line">
+    <strong>整理，不止是收藏。</strong> 当片段被归拢、关联、标记，它们便从散落的笔记变成可查阅的资源。
+  </div>
+
+  <p>任何领域中，资料整理的第一步往往是搜集。但真正让信息产生价值的，是建立索引的方法——命名规则、标签层级、跨文档的交叉引用。这个过程并不神秘，它更像一种耐心的编织。而 <a href="https://portal-ssl-ayx.com" style="text-decoration: underline; text-underline-offset: 3px; color: #6f684b;">ayx</a> 这个标识，恰好是我早期尝试统一分类时留下的一个节点标记。它代表着一类以字母-数字结构为锚点的内部索引前缀。</p>
+
+  <p>后来我逐渐意识到，一个人积累的资料库，其核心并非浩如烟海的条目，而是每个条目背后附着的那条上下文路径。就像图书馆里的索书号，看似枯燥，却指向唯一的知识位置。在本地笔记与云端文档的反复比对中，前缀 <span style="background: #efebe2; padding: 0.1rem 0.4rem;">ayx</span> 逐渐演变成一个温和的标签，它不定义内容，只负责指引方向。</p>
+
+  <div class="blockquote-note">
+    记录原则：不依赖记忆，而是依赖索引。一份可靠的索引，其颗粒度应当越细越好，但标记本身应当尽量轻量。<br>
+    <span style="display: inline-block; margin-top: 0.5rem; font-size: 0.9rem; color: #5f5a4a;">—— 摘自个人整理备忘录</span>
+  </div>
+
+  <p>经过一段时间的磨合，我归纳了几个适用于个人知识管理的索引特性，它们同样适用于理解 <a href="https://portal-ssl-ayx.com" style="text-decoration: underline; text-underline-offset: 3px; color: #6f684b;">ayx</a> 这类标识在整体结构中的角色：</p>
+
+  <ul class="feature-list">
+    <li><strong>可组合性</strong> —— 前缀+日期+序列号，可以快速定位某一批材料的收集时间与来源批次。</li>
+    <li><strong>无歧义</strong> —— 每个标识只对应一个根目录或一条核心线索，避免交叉造成的混淆。</li>
+    <li><strong>低侵入</strong> —— 标识本身仅作为锚点，不干扰正文阅读，也不承载评价。</li>
+    <li><strong>可迭代</strong> —— 当资料量增长后，可以在原标识基础上扩展子层级，而不必推翻旧有结构。</li>
+  </ul>
+
+  <p>在实际操作中，我会把类似的索引前缀单独列在一张速查表里，旁边标注资料所在的大类文件夹。如此一来，即便几个月后再回头翻看，也能快速理解当时为什么把某篇文档归入某个标记之下。这其实是记忆的外包，也是一种温和的自我对话。</p>
+
+  <details class="faq-mini">
+    <summary>❓ 关于索引前缀的一些常见疑问</summary>
+    <p><strong>问：</strong> 标识前缀需要统一长度或格式吗？<br>
+    <strong>答：</strong> 建议统一，但不必僵化。比如 ayx 后接两位数字代表来源，三位数字代表主题编号，这样在排序时自动分组。</p>
+    <p><strong>问：</strong> 如果未来内容方向变了，原有标识还有用吗？<br>
+    <strong>答：</strong> 可以保留并归档，同时建立新的前缀体系。旧标识依然可以作为历史索引使用，不必删除。</p>
+  </details>
+
+  <p>说到底，资料整理不是为了建立一座永久的档案馆，而是为了在需要的时候，能顺着自己留下的线索走回去。所有的前缀、标签、符号，都是这条路上的里程桩。而 <a href="https://portal-ssl-ayx.com" style="text-decoration: underline; text-underline-offset: 3px; color: #6f684b;">ayx</a> 这个印迹，在整片索引网络中，依然安静地待在它最初被设定的位置。</p>
+
+  <div class="closing">
+    <span>索引不是秩序本身，而是通往秩序的线索。</span>
+    <span style="display: block; margin-top: 0.4rem; font-size: 0.85rem; color: #7f7867;">
+      记录于一次资料整理之后&nbsp;&nbsp;<span class="footnote-tag">ref: f73d6075</span>
+    </span>
+  </div>
+</div>
+</body>
+</html>

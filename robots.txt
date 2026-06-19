@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cactivebiass.github.io/portal-ssl-ayx-com/sitemap.xml
